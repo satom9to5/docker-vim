@@ -1,0 +1,18 @@
+# 各種言語
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# Golang用
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = ['go']
+
+# Graphql用
+[[plugins]]
+repo = 'jparise/vim-graphql'
+on_ft = ['graphql']
+
+# Markdown用
+[[plugins]]
+repo = 'rcmdnk/vim-markdown'
+on_ft = ['md', 'markdown']

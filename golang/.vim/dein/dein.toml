@@ -1,0 +1,13 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+# ファイラ
+[[plugins]]
+repo = 'Shougo/vimfiler'
+
+# シンタックスチェック
+[[plugins]]
+repo = 'w0rp/ale'

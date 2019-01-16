@@ -1,0 +1,13 @@
+# 各種言語
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# Graphql用
+[[plugins]]
+repo = 'jparise/vim-graphql'
+on_ft = ['graphql']
+
+# Markdown用
+[[plugins]]
+repo = 'rcmdnk/vim-markdown'
+on_ft = ['md', 'markdown']
