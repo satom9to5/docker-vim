@@ -1,0 +1,8 @@
+# 各種言語
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# Markdown用
+[[plugins]]
+repo = 'rcmdnk/vim-markdown'
+on_ft = ['md', 'markdown']

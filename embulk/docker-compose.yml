@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  vim:
+    # ビルド設定
+    build:
+      context: .
+    image: alpine-vim-embulk
+    network_mode: "bridge"
+    #volumes:
+    #  - .:/vim
+    tty: true
