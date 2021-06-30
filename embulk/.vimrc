@@ -28,6 +28,11 @@ augroup YmlLiquid
   autocmd BufNewFile,BufRead *.yml.liquid setfiletype yaml
 augroup END
 
+augroup DigLiquid
+  autocmd!
+  autocmd BufNewFile,BufRead *.dig setfiletype yaml
+augroup END
+
 " deinインストール
 let s:cache_home = empty($XDG_CACHE_HOME) ? expand('~/.cache') : $XDG_CACHE_HOME
 let s:dein_dir = s:cache_home . '/dein'
